@@ -1,0 +1,680 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		980CD64919A69841008944E2 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 980CD64819A69841008944E2 /* CoreMotion.framework */; };
+		980CD64B19A6F2A0008944E2 /* blueTracker0.png in Resources */ = {isa = PBXBuildFile; fileRef = 980CD64A19A6F2A0008944E2 /* blueTracker0.png */; };
+		980CD64D19A6F496008944E2 /* Waterfall.wav in Resources */ = {isa = PBXBuildFile; fileRef = 980CD64C19A6F496008944E2 /* Waterfall.wav */; };
+		980CD64F19A6F644008944E2 /* ChurchBells.wav in Resources */ = {isa = PBXBuildFile; fileRef = 980CD64E19A6F644008944E2 /* ChurchBells.wav */; };
+		98607DE4199EA82100468464 /* AO.png in Resources */ = {isa = PBXBuildFile; fileRef = 98607DE3199EA82100468464 /* AO.png */; };
+		98BE200D198C4A37005708AE /* blueTracker.png in Resources */ = {isa = PBXBuildFile; fileRef = 98BE200C198C4A37005708AE /* blueTracker.png */; };
+		98CDC58A19899D06006A4911 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 98CDC58919899D06006A4911 /* main.m */; };
+		98CDC58D19899D06006A4911 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 98CDC58C19899D06006A4911 /* AppDelegate.m */; };
+		98CDC59019899D06006A4911 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 98CDC58F19899D06006A4911 /* ViewController.mm */; };
+		98CDC59319899D06006A4911 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98CDC59119899D06006A4911 /* Main.storyboard */; };
+		98CDC59519899D06006A4911 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98CDC59419899D06006A4911 /* Images.xcassets */; };
+		98CDC5A119899D06006A4911 /* SteerAudioTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 98CDC5A019899D06006A4911 /* SteerAudioTests.m */; };
+		98CDC5AC19899D59006A4911 /* ring-frame-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 98CDC5AB19899D59006A4911 /* ring-frame-1.jpg */; };
+		98CDC5AE19899EF0006A4911 /* SteeringWheel.m in Sources */ = {isa = PBXBuildFile; fileRef = 98CDC5AD19899EF0006A4911 /* SteeringWheel.m */; };
+		98CDC5B11989A3F3006A4911 /* 450px-White_circle_in_blue_background.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = 98CDC5B01989A3F3006A4911 /* 450px-White_circle_in_blue_background.svg.png */; };
+		98D2744E19A4093F00CEBF28 /* 1minutetest.wav in Resources */ = {isa = PBXBuildFile; fileRef = 98D2742E19A4093F00CEBF28 /* 1minutetest.wav */; };
+		98D2744F19A4093F00CEBF28 /* 3m40stest.wav in Resources */ = {isa = PBXBuildFile; fileRef = 98D2742F19A4093F00CEBF28 /* 3m40stest.wav */; };
+		98D2745019A4093F00CEBF28 /* catmeow.wav in Resources */ = {isa = PBXBuildFile; fileRef = 98D2743019A4093F00CEBF28 /* catmeow.wav */; };
+		98D2745119A4093F00CEBF28 /* input1mono.wav in Resources */ = {isa = PBXBuildFile; fileRef = 98D2743119A4093F00CEBF28 /* input1mono.wav */; };
+		98D2745219A4093F00CEBF28 /* CustomAudioUnit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 98D2743319A4093F00CEBF28 /* CustomAudioUnit.cpp */; };
+		98D2745319A4093F00CEBF28 /* Sonic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 98D2744119A4093F00CEBF28 /* Sonic.cpp */; };
+		98D2745419A4093F00CEBF28 /* AudioObj.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 98D2744419A4093F00CEBF28 /* AudioObj.cpp */; };
+		98D2745519A4093F00CEBF28 /* complex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 98D2744519A4093F00CEBF28 /* complex.cpp */; };
+		98D2745619A4093F00CEBF28 /* fft.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 98D2744619A4093F00CEBF28 /* fft.cpp */; };
+		98D2745719A4093F00CEBF28 /* location.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 98D2744719A4093F00CEBF28 /* location.cpp */; };
+		98D2745819A4093F00CEBF28 /* mit_hrtf_lib.c in Sources */ = {isa = PBXBuildFile; fileRef = 98D2744819A4093F00CEBF28 /* mit_hrtf_lib.c */; };
+		98D2745919A4093F00CEBF28 /* Mixer3D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 98D2744919A4093F00CEBF28 /* Mixer3D.cpp */; };
+		98D2745A19A4093F00CEBF28 /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 98D2744A19A4093F00CEBF28 /* Player.cpp */; };
+		98D2745B19A4093F00CEBF28 /* velocity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 98D2744B19A4093F00CEBF28 /* velocity.cpp */; };
+		98D2745C19A4093F00CEBF28 /* WavObject.mm in Sources */ = {isa = PBXBuildFile; fileRef = 98D2744C19A4093F00CEBF28 /* WavObject.mm */; };
+		98D2745D19A4093F00CEBF28 /* World.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 98D2744D19A4093F00CEBF28 /* World.cpp */; };
+		98D2746019A4156200CEBF28 /* dripping.wav in Resources */ = {isa = PBXBuildFile; fileRef = 98D2745E19A4156200CEBF28 /* dripping.wav */; };
+		98D2746119A4156200CEBF28 /* footsteps.wav in Resources */ = {isa = PBXBuildFile; fileRef = 98D2745F19A4156200CEBF28 /* footsteps.wav */; };
+		98F4FDB019930D39001BB9B6 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98F4FDAF19930D38001BB9B6 /* AudioToolbox.framework */; };
+		98F4FDB219930D43001BB9B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98F4FDB119930D43001BB9B6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		98CDC59B19899D06006A4911 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98CDC57C19899D05006A4911 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98CDC58319899D06006A4911;
+			remoteInfo = SteerAudio;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		980CD64819A69841008944E2 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		980CD64A19A6F2A0008944E2 /* blueTracker0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueTracker0.png; sourceTree = "<group>"; };
+		980CD64C19A6F496008944E2 /* Waterfall.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Waterfall.wav; sourceTree = "<group>"; };
+		980CD64E19A6F644008944E2 /* ChurchBells.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ChurchBells.wav; sourceTree = "<group>"; };
+		98607DE3199EA82100468464 /* AO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AO.png; sourceTree = "<group>"; };
+		98BE200C198C4A37005708AE /* blueTracker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueTracker.png; sourceTree = "<group>"; };
+		98BE200E19917C11005708AE /* RotaryProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RotaryProtocol.h; sourceTree = "<group>"; };
+		98CDC58419899D06006A4911 /* SteerAudio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SteerAudio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		98CDC58819899D06006A4911 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98CDC58919899D06006A4911 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		98CDC58B19899D06006A4911 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		98CDC58C19899D06006A4911 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		98CDC58E19899D06006A4911 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		98CDC58F19899D06006A4911 /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		98CDC59219899D06006A4911 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		98CDC59419899D06006A4911 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		98CDC59A19899D06006A4911 /* SteerAudioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SteerAudioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		98CDC59F19899D06006A4911 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98CDC5A019899D06006A4911 /* SteerAudioTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SteerAudioTests.m; sourceTree = "<group>"; };
+		98CDC5AB19899D59006A4911 /* ring-frame-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ring-frame-1.jpg"; sourceTree = "<group>"; };
+		98CDC5AD19899EF0006A4911 /* SteeringWheel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SteeringWheel.m; sourceTree = "<group>"; };
+		98CDC5AF19899F0A006A4911 /* SteeringWheel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SteeringWheel.h; sourceTree = "<group>"; };
+		98CDC5B01989A3F3006A4911 /* 450px-White_circle_in_blue_background.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "450px-White_circle_in_blue_background.svg.png"; sourceTree = "<group>"; };
+		98D2742119A4093F00CEBF28 /* AudioObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioObj.h; sourceTree = "<group>"; };
+		98D2742219A4093F00CEBF28 /* CircBuff.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircBuff.h; sourceTree = "<group>"; };
+		98D2742319A4093F00CEBF28 /* complex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = complex.h; sourceTree = "<group>"; };
+		98D2742419A4093F00CEBF28 /* fft.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fft.h; sourceTree = "<group>"; };
+		98D2742519A4093F00CEBF28 /* location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = location.h; sourceTree = "<group>"; };
+		98D2742619A4093F00CEBF28 /* mit_hrtf_filter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mit_hrtf_filter.h; sourceTree = "<group>"; };
+		98D2742719A4093F00CEBF28 /* mit_hrtf_lib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mit_hrtf_lib.h; sourceTree = "<group>"; };
+		98D2742819A4093F00CEBF28 /* Mixer3D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mixer3D.h; sourceTree = "<group>"; };
+		98D2742919A4093F00CEBF28 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		98D2742A19A4093F00CEBF28 /* velocity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = velocity.h; sourceTree = "<group>"; };
+		98D2742B19A4093F00CEBF28 /* WavObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WavObject.h; sourceTree = "<group>"; };
+		98D2742C19A4093F00CEBF28 /* World.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = World.h; sourceTree = "<group>"; };
+		98D2742E19A4093F00CEBF28 /* 1minutetest.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 1minutetest.wav; sourceTree = "<group>"; };
+		98D2742F19A4093F00CEBF28 /* 3m40stest.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 3m40stest.wav; sourceTree = "<group>"; };
+		98D2743019A4093F00CEBF28 /* catmeow.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = catmeow.wav; sourceTree = "<group>"; };
+		98D2743119A4093F00CEBF28 /* input1mono.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = input1mono.wav; sourceTree = "<group>"; };
+		98D2743319A4093F00CEBF28 /* CustomAudioUnit.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CustomAudioUnit.cpp; sourceTree = "<group>"; };
+		98D2743419A4093F00CEBF28 /* CustomAudioUnit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAudioUnit.h; sourceTree = "<group>"; };
+		98D2743819A4093F00CEBF28 /* mit_hrtf_diffuse_44100.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mit_hrtf_diffuse_44100.h; sourceTree = "<group>"; };
+		98D2743919A4093F00CEBF28 /* mit_hrtf_diffuse_48000.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mit_hrtf_diffuse_48000.h; sourceTree = "<group>"; };
+		98D2743A19A4093F00CEBF28 /* mit_hrtf_diffuse_88200.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mit_hrtf_diffuse_88200.h; sourceTree = "<group>"; };
+		98D2743B19A4093F00CEBF28 /* mit_hrtf_diffuse_96000.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mit_hrtf_diffuse_96000.h; sourceTree = "<group>"; };
+		98D2743D19A4093F00CEBF28 /* mit_hrtf_normal_44100.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mit_hrtf_normal_44100.h; sourceTree = "<group>"; };
+		98D2743E19A4093F00CEBF28 /* mit_hrtf_normal_48000.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mit_hrtf_normal_48000.h; sourceTree = "<group>"; };
+		98D2743F19A4093F00CEBF28 /* mit_hrtf_normal_88200.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mit_hrtf_normal_88200.h; sourceTree = "<group>"; };
+		98D2744019A4093F00CEBF28 /* mit_hrtf_normal_96000.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mit_hrtf_normal_96000.h; sourceTree = "<group>"; };
+		98D2744119A4093F00CEBF28 /* Sonic.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Sonic.cpp; sourceTree = "<group>"; };
+		98D2744219A4093F00CEBF28 /* Sonic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sonic.h; sourceTree = "<group>"; };
+		98D2744419A4093F00CEBF28 /* AudioObj.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AudioObj.cpp; sourceTree = "<group>"; };
+		98D2744519A4093F00CEBF28 /* complex.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = complex.cpp; sourceTree = "<group>"; };
+		98D2744619A4093F00CEBF28 /* fft.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = fft.cpp; sourceTree = "<group>"; };
+		98D2744719A4093F00CEBF28 /* location.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = location.cpp; sourceTree = "<group>"; };
+		98D2744819A4093F00CEBF28 /* mit_hrtf_lib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mit_hrtf_lib.c; sourceTree = "<group>"; };
+		98D2744919A4093F00CEBF28 /* Mixer3D.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Mixer3D.cpp; sourceTree = "<group>"; };
+		98D2744A19A4093F00CEBF28 /* Player.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Player.cpp; sourceTree = "<group>"; };
+		98D2744B19A4093F00CEBF28 /* velocity.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = velocity.cpp; sourceTree = "<group>"; };
+		98D2744C19A4093F00CEBF28 /* WavObject.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = WavObject.mm; sourceTree = "<group>"; };
+		98D2744D19A4093F00CEBF28 /* World.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = World.cpp; sourceTree = "<group>"; };
+		98D2745E19A4156200CEBF28 /* dripping.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = dripping.wav; sourceTree = "<group>"; };
+		98D2745F19A4156200CEBF28 /* footsteps.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = footsteps.wav; sourceTree = "<group>"; };
+		98F4FDAF19930D38001BB9B6 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		98F4FDB119930D43001BB9B6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		98CDC58119899D06006A4911 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				980CD64919A69841008944E2 /* CoreMotion.framework in Frameworks */,
+				98F4FDB219930D43001BB9B6 /* Foundation.framework in Frameworks */,
+				98F4FDB019930D39001BB9B6 /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98CDC59719899D06006A4911 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		98CDC57B19899D05006A4911 = {
+			isa = PBXGroup;
+			children = (
+				980CD64819A69841008944E2 /* CoreMotion.framework */,
+				98F4FDB119930D43001BB9B6 /* Foundation.framework */,
+				98F4FDAF19930D38001BB9B6 /* AudioToolbox.framework */,
+				98CDC58619899D06006A4911 /* SteerAudio */,
+				98CDC59D19899D06006A4911 /* SteerAudioTests */,
+				98CDC58519899D06006A4911 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		98CDC58519899D06006A4911 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98CDC58419899D06006A4911 /* SteerAudio.app */,
+				98CDC59A19899D06006A4911 /* SteerAudioTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		98CDC58619899D06006A4911 /* SteerAudio */ = {
+			isa = PBXGroup;
+			children = (
+				98D2741F19A4093F00CEBF28 /* SonicLibrary */,
+				98CDC5AA19899D3A006A4911 /* Assets */,
+				98CDC58B19899D06006A4911 /* AppDelegate.h */,
+				98CDC58C19899D06006A4911 /* AppDelegate.m */,
+				98CDC58E19899D06006A4911 /* ViewController.h */,
+				98CDC58F19899D06006A4911 /* ViewController.mm */,
+				98CDC59119899D06006A4911 /* Main.storyboard */,
+				98CDC5AD19899EF0006A4911 /* SteeringWheel.m */,
+				98CDC5AF19899F0A006A4911 /* SteeringWheel.h */,
+				98BE200E19917C11005708AE /* RotaryProtocol.h */,
+				98CDC59419899D06006A4911 /* Images.xcassets */,
+				98CDC58719899D06006A4911 /* Supporting Files */,
+			);
+			path = SteerAudio;
+			sourceTree = "<group>";
+		};
+		98CDC58719899D06006A4911 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				98CDC58819899D06006A4911 /* Info.plist */,
+				98CDC58919899D06006A4911 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		98CDC59D19899D06006A4911 /* SteerAudioTests */ = {
+			isa = PBXGroup;
+			children = (
+				98CDC5A019899D06006A4911 /* SteerAudioTests.m */,
+				98CDC59E19899D06006A4911 /* Supporting Files */,
+			);
+			path = SteerAudioTests;
+			sourceTree = "<group>";
+		};
+		98CDC59E19899D06006A4911 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				98CDC59F19899D06006A4911 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		98CDC5AA19899D3A006A4911 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				980CD64E19A6F644008944E2 /* ChurchBells.wav */,
+				980CD64A19A6F2A0008944E2 /* blueTracker0.png */,
+				98607DE3199EA82100468464 /* AO.png */,
+				98BE200C198C4A37005708AE /* blueTracker.png */,
+				98CDC5B01989A3F3006A4911 /* 450px-White_circle_in_blue_background.svg.png */,
+				98CDC5AB19899D59006A4911 /* ring-frame-1.jpg */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		98D2741F19A4093F00CEBF28 /* SonicLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				98D2742019A4093F00CEBF28 /* include */,
+				98D2742D19A4093F00CEBF28 /* InputData */,
+				98D2743219A4093F00CEBF28 /* iOS */,
+				98D2743519A4093F00CEBF28 /* MIT_HRTF_Library */,
+				98D2744119A4093F00CEBF28 /* Sonic.cpp */,
+				98D2744219A4093F00CEBF28 /* Sonic.h */,
+				98D2744319A4093F00CEBF28 /* source */,
+			);
+			path = SonicLibrary;
+			sourceTree = "<group>";
+		};
+		98D2742019A4093F00CEBF28 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				98D2742119A4093F00CEBF28 /* AudioObj.h */,
+				98D2742219A4093F00CEBF28 /* CircBuff.h */,
+				98D2742319A4093F00CEBF28 /* complex.h */,
+				98D2742419A4093F00CEBF28 /* fft.h */,
+				98D2742519A4093F00CEBF28 /* location.h */,
+				98D2742619A4093F00CEBF28 /* mit_hrtf_filter.h */,
+				98D2742719A4093F00CEBF28 /* mit_hrtf_lib.h */,
+				98D2742819A4093F00CEBF28 /* Mixer3D.h */,
+				98D2742919A4093F00CEBF28 /* Player.h */,
+				98D2742A19A4093F00CEBF28 /* velocity.h */,
+				98D2742B19A4093F00CEBF28 /* WavObject.h */,
+				98D2742C19A4093F00CEBF28 /* World.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		98D2742D19A4093F00CEBF28 /* InputData */ = {
+			isa = PBXGroup;
+			children = (
+				980CD64C19A6F496008944E2 /* Waterfall.wav */,
+				98D2745E19A4156200CEBF28 /* dripping.wav */,
+				98D2745F19A4156200CEBF28 /* footsteps.wav */,
+				98D2742E19A4093F00CEBF28 /* 1minutetest.wav */,
+				98D2742F19A4093F00CEBF28 /* 3m40stest.wav */,
+				98D2743019A4093F00CEBF28 /* catmeow.wav */,
+				98D2743119A4093F00CEBF28 /* input1mono.wav */,
+			);
+			path = InputData;
+			sourceTree = "<group>";
+		};
+		98D2743219A4093F00CEBF28 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				98D2743319A4093F00CEBF28 /* CustomAudioUnit.cpp */,
+				98D2743419A4093F00CEBF28 /* CustomAudioUnit.h */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		98D2743519A4093F00CEBF28 /* MIT_HRTF_Library */ = {
+			isa = PBXGroup;
+			children = (
+				98D2743619A4093F00CEBF28 /* source */,
+			);
+			path = MIT_HRTF_Library;
+			sourceTree = "<group>";
+		};
+		98D2743619A4093F00CEBF28 /* source */ = {
+			isa = PBXGroup;
+			children = (
+				98D2743719A4093F00CEBF28 /* diffuse */,
+				98D2743C19A4093F00CEBF28 /* normal */,
+			);
+			path = source;
+			sourceTree = "<group>";
+		};
+		98D2743719A4093F00CEBF28 /* diffuse */ = {
+			isa = PBXGroup;
+			children = (
+				98D2743819A4093F00CEBF28 /* mit_hrtf_diffuse_44100.h */,
+				98D2743919A4093F00CEBF28 /* mit_hrtf_diffuse_48000.h */,
+				98D2743A19A4093F00CEBF28 /* mit_hrtf_diffuse_88200.h */,
+				98D2743B19A4093F00CEBF28 /* mit_hrtf_diffuse_96000.h */,
+			);
+			path = diffuse;
+			sourceTree = "<group>";
+		};
+		98D2743C19A4093F00CEBF28 /* normal */ = {
+			isa = PBXGroup;
+			children = (
+				98D2743D19A4093F00CEBF28 /* mit_hrtf_normal_44100.h */,
+				98D2743E19A4093F00CEBF28 /* mit_hrtf_normal_48000.h */,
+				98D2743F19A4093F00CEBF28 /* mit_hrtf_normal_88200.h */,
+				98D2744019A4093F00CEBF28 /* mit_hrtf_normal_96000.h */,
+			);
+			path = normal;
+			sourceTree = "<group>";
+		};
+		98D2744319A4093F00CEBF28 /* source */ = {
+			isa = PBXGroup;
+			children = (
+				98D2744419A4093F00CEBF28 /* AudioObj.cpp */,
+				98D2744519A4093F00CEBF28 /* complex.cpp */,
+				98D2744619A4093F00CEBF28 /* fft.cpp */,
+				98D2744719A4093F00CEBF28 /* location.cpp */,
+				98D2744819A4093F00CEBF28 /* mit_hrtf_lib.c */,
+				98D2744919A4093F00CEBF28 /* Mixer3D.cpp */,
+				98D2744A19A4093F00CEBF28 /* Player.cpp */,
+				98D2744B19A4093F00CEBF28 /* velocity.cpp */,
+				98D2744C19A4093F00CEBF28 /* WavObject.mm */,
+				98D2744D19A4093F00CEBF28 /* World.cpp */,
+			);
+			path = source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		98CDC58319899D06006A4911 /* SteerAudio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98CDC5A419899D06006A4911 /* Build configuration list for PBXNativeTarget "SteerAudio" */;
+			buildPhases = (
+				98CDC58019899D06006A4911 /* Sources */,
+				98CDC58119899D06006A4911 /* Frameworks */,
+				98CDC58219899D06006A4911 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SteerAudio;
+			productName = SteerAudio;
+			productReference = 98CDC58419899D06006A4911 /* SteerAudio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		98CDC59919899D06006A4911 /* SteerAudioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98CDC5A719899D06006A4911 /* Build configuration list for PBXNativeTarget "SteerAudioTests" */;
+			buildPhases = (
+				98CDC59619899D06006A4911 /* Sources */,
+				98CDC59719899D06006A4911 /* Frameworks */,
+				98CDC59819899D06006A4911 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98CDC59C19899D06006A4911 /* PBXTargetDependency */,
+			);
+			name = SteerAudioTests;
+			productName = SteerAudioTests;
+			productReference = 98CDC59A19899D06006A4911 /* SteerAudioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98CDC57C19899D05006A4911 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Philadelphia Game Lab";
+				TargetAttributes = {
+					98CDC58319899D06006A4911 = {
+						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = CE4KW5FNQ4;
+					};
+					98CDC59919899D06006A4911 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 98CDC58319899D06006A4911;
+					};
+				};
+			};
+			buildConfigurationList = 98CDC57F19899D05006A4911 /* Build configuration list for PBXProject "SteerAudio" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 98CDC57B19899D05006A4911;
+			productRefGroup = 98CDC58519899D06006A4911 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98CDC58319899D06006A4911 /* SteerAudio */,
+				98CDC59919899D06006A4911 /* SteerAudioTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		98CDC58219899D06006A4911 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98D2744F19A4093F00CEBF28 /* 3m40stest.wav in Resources */,
+				98D2746019A4156200CEBF28 /* dripping.wav in Resources */,
+				980CD64B19A6F2A0008944E2 /* blueTracker0.png in Resources */,
+				980CD64F19A6F644008944E2 /* ChurchBells.wav in Resources */,
+				98D2744E19A4093F00CEBF28 /* 1minutetest.wav in Resources */,
+				98CDC5AC19899D59006A4911 /* ring-frame-1.jpg in Resources */,
+				98D2746119A4156200CEBF28 /* footsteps.wav in Resources */,
+				98CDC59319899D06006A4911 /* Main.storyboard in Resources */,
+				98CDC5B11989A3F3006A4911 /* 450px-White_circle_in_blue_background.svg.png in Resources */,
+				98607DE4199EA82100468464 /* AO.png in Resources */,
+				98D2745019A4093F00CEBF28 /* catmeow.wav in Resources */,
+				98CDC59519899D06006A4911 /* Images.xcassets in Resources */,
+				980CD64D19A6F496008944E2 /* Waterfall.wav in Resources */,
+				98D2745119A4093F00CEBF28 /* input1mono.wav in Resources */,
+				98BE200D198C4A37005708AE /* blueTracker.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98CDC59819899D06006A4911 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		98CDC58019899D06006A4911 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98D2745919A4093F00CEBF28 /* Mixer3D.cpp in Sources */,
+				98CDC5AE19899EF0006A4911 /* SteeringWheel.m in Sources */,
+				98D2745D19A4093F00CEBF28 /* World.cpp in Sources */,
+				98CDC59019899D06006A4911 /* ViewController.mm in Sources */,
+				98D2745819A4093F00CEBF28 /* mit_hrtf_lib.c in Sources */,
+				98D2745319A4093F00CEBF28 /* Sonic.cpp in Sources */,
+				98D2745619A4093F00CEBF28 /* fft.cpp in Sources */,
+				98D2745719A4093F00CEBF28 /* location.cpp in Sources */,
+				98D2745219A4093F00CEBF28 /* CustomAudioUnit.cpp in Sources */,
+				98D2745B19A4093F00CEBF28 /* velocity.cpp in Sources */,
+				98D2745A19A4093F00CEBF28 /* Player.cpp in Sources */,
+				98D2745519A4093F00CEBF28 /* complex.cpp in Sources */,
+				98CDC58D19899D06006A4911 /* AppDelegate.m in Sources */,
+				98D2745419A4093F00CEBF28 /* AudioObj.cpp in Sources */,
+				98D2745C19A4093F00CEBF28 /* WavObject.mm in Sources */,
+				98CDC58A19899D06006A4911 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98CDC59619899D06006A4911 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98CDC5A119899D06006A4911 /* SteerAudioTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		98CDC59C19899D06006A4911 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98CDC58319899D06006A4911 /* SteerAudio */;
+			targetProxy = 98CDC59B19899D06006A4911 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		98CDC59119899D06006A4911 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98CDC59219899D06006A4911 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		98CDC5A219899D06006A4911 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		98CDC5A319899D06006A4911 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		98CDC5A519899D06006A4911 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = SteerAudio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LINK_WITH_STANDARD_LIBRARIES = YES;
+				MACH_O_TYPE = mh_execute;
+				PRODUCT_NAME = SteerAudio;
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		98CDC5A619899D06006A4911 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = SteerAudio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LINK_WITH_STANDARD_LIBRARIES = YES;
+				MACH_O_TYPE = mh_execute;
+				PRODUCT_NAME = SteerAudio;
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		98CDC5A819899D06006A4911 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SteerAudio.app/SteerAudio";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SteerAudioTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		98CDC5A919899D06006A4911 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SteerAudio.app/SteerAudio";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SteerAudioTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		98CDC57F19899D05006A4911 /* Build configuration list for PBXProject "SteerAudio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98CDC5A219899D06006A4911 /* Debug */,
+				98CDC5A319899D06006A4911 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98CDC5A419899D06006A4911 /* Build configuration list for PBXNativeTarget "SteerAudio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98CDC5A519899D06006A4911 /* Debug */,
+				98CDC5A619899D06006A4911 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98CDC5A719899D06006A4911 /* Build configuration list for PBXNativeTarget "SteerAudioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98CDC5A819899D06006A4911 /* Debug */,
+				98CDC5A919899D06006A4911 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 98CDC57C19899D05006A4911 /* Project object */;
+}
