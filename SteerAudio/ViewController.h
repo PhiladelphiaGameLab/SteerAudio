@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "RotaryProtocol.h"
-#include "SonicLibrary/Sonic.h"
+#include "Sonic.h"
 #import <CoreMotion/CoreMotion.h>
 #import "SteeringWheel.h"
 

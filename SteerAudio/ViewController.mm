@@ -62,5 +62,6 @@
     [steeringWheel turnWheel:currentYaw];
 }
 
+CustomAudioUnit* Sonic::cau = nullptr;
 
 @end
