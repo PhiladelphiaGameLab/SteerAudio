@@ -34,7 +34,9 @@
     
     self.azimuthMain = 0;
     Sonic::createWorld();
-    audioObj1 = Sonic::addAudioObject("Waterfall.wav", 0, 1, 0);
+    NSString *soundPath = [[NSBundle mainBundle] pathForResource:@"Waterfall" ofType:@"wav"];
+    std::string soundPathUTF = std::string([soundPath UTF8String]);
+    audioObj1 = Sonic::addAudioObject(soundPathUTF, 0, 1, 0);
     
     steeringWheel = [[SteeringWheel alloc] initWithFrame:CGRectMake(0, 0, 200, 200) andDelegate:self];
     steeringWheel.center = CGPointMake(160, 240);
