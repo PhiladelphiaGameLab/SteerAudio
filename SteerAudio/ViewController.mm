@@ -56,7 +56,7 @@
     self.azimuthMain = az;
     self.valueLabel.text = [NSString stringWithFormat:@"%f", 180/3.142*(azimuthMain)];
     audioObj1->setLocation(sinf(self.azimuthMain), cosf(self.azimuthMain), 0);
-    Sonic::setPlayerBearing(180/PI*(-az));
+    //Sonic::setPlayerBearing(180/PI*(-az));
 }
 
 -(void) doGyroUpdate {

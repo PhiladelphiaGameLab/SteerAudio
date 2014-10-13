@@ -25,8 +25,8 @@ static float existingAngle;
     
     if ((self = [super initWithFrame:frame])) {
         self.delegate = del;
-        self.existingAzimuth = 180;
-        self.currentAzimuth = 180;
+        self.existingAzimuth = 0;
+        self.currentAzimuth = 0;
         [self drawWheel];
     }
     return self;
@@ -43,7 +43,7 @@ static float existingAngle;
     container.userInteractionEnabled = NO;
     [self addSubview:container];
      startTransform = container.transform;
-     [self.delegate wheelDidChangeValue: [NSString stringWithFormat:@"%i", ((int)currentAzimuth)] :currentAzimuth];
+    //[self.delegate wheelDidChangeValue: [NSString stringWithFormat:@"%i", ((int)currentAzimuth)] :currentAzimuth];
 }
 
 - (void)turnWheel:(double)angle {

@@ -33,6 +33,7 @@
 		5ECD791B19E48FC600C11F90 /* ChurchBells.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5ECD791A19E48FC600C11F90 /* ChurchBells.wav */; };
 		980CD64919A69841008944E2 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 980CD64819A69841008944E2 /* CoreMotion.framework */; };
 		980CD64B19A6F2A0008944E2 /* blueTracker0.png in Resources */ = {isa = PBXBuildFile; fileRef = 980CD64A19A6F2A0008944E2 /* blueTracker0.png */; };
+		98436FD519EC3BCB00EDA8E4 /* Waterfall.wav in Resources */ = {isa = PBXBuildFile; fileRef = 98436FD419EC3BCB00EDA8E4 /* Waterfall.wav */; };
 		98CDC58A19899D06006A4911 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 98CDC58919899D06006A4911 /* main.m */; };
 		98CDC58D19899D06006A4911 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 98CDC58C19899D06006A4911 /* AppDelegate.m */; };
 		98CDC59019899D06006A4911 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 98CDC58F19899D06006A4911 /* ViewController.mm */; };
@@ -103,6 +104,7 @@
 		5ECD791A19E48FC600C11F90 /* ChurchBells.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ChurchBells.wav; sourceTree = "<group>"; };
 		980CD64819A69841008944E2 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		980CD64A19A6F2A0008944E2 /* blueTracker0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueTracker0.png; sourceTree = "<group>"; };
+		98436FD419EC3BCB00EDA8E4 /* Waterfall.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Waterfall.wav; sourceTree = "<group>"; };
 		98BE200E19917C11005708AE /* RotaryProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RotaryProtocol.h; sourceTree = "<group>"; };
 		98CDC58419899D06006A4911 /* SteerAudio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SteerAudio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98CDC58819899D06006A4911 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -256,6 +258,7 @@
 		5ECD790D19E48F4E00C11F90 /* WAV */ = {
 			isa = PBXGroup;
 			children = (
+				98436FD419EC3BCB00EDA8E4 /* Waterfall.wav */,
 				5ECD791A19E48FC600C11F90 /* ChurchBells.wav */,
 				5ECD790E19E48F4E00C11F90 /* 16-44100-beebuzz.wav */,
 				5ECD790F19E48F4E00C11F90 /* 16-44100-pianoriff.wav */,
@@ -434,6 +437,7 @@
 				5ECD78FF19E48EF900C11F90 /* README.md in Resources */,
 				98CDC59319899D06006A4911 /* Main.storyboard in Resources */,
 				5ECD791619E48F4E00C11F90 /* 16-44100-pianosong.wav in Resources */,
+				98436FD519EC3BCB00EDA8E4 /* Waterfall.wav in Resources */,
 				5ECD791919E48F4E00C11F90 /* 8-11025-catmeow.wav in Resources */,
 				5ECD791719E48F4E00C11F90 /* 16-44100-rockjam.wav in Resources */,
 				5ECD791519E48F4E00C11F90 /* 16-44100-pianoriff.wav in Resources */,
