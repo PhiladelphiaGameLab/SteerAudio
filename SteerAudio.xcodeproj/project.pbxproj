@@ -7,12 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5ECD78FB19E48EF900C11F90 /* .gitattributes in Resources */ = {isa = PBXBuildFile; fileRef = 5ECD78CD19E48EF900C11F90 /* .gitattributes */; };
-		5ECD78FC19E48EF900C11F90 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 5ECD78CE19E48EF900C11F90 /* .gitignore */; };
 		5ECD78FD19E48EF900C11F90 /* CustomAudioUnit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5ECD78DD19E48EF900C11F90 /* CustomAudioUnit.cpp */; };
-		5ECD78FE19E48EF900C11F90 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 5ECD78DF19E48EF900C11F90 /* LICENSE */; };
-		5ECD78FF19E48EF900C11F90 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5ECD78EC19E48EF900C11F90 /* README.md */; };
-		5ECD790019E48EF900C11F90 /* SETUP.md in Resources */ = {isa = PBXBuildFile; fileRef = 5ECD78ED19E48EF900C11F90 /* SETUP.md */; };
 		5ECD790119E48EF900C11F90 /* Sonic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5ECD78EE19E48EF900C11F90 /* Sonic.cpp */; };
 		5ECD790219E48EF900C11F90 /* AudioObj.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5ECD78F119E48EF900C11F90 /* AudioObj.cpp */; };
 		5ECD790319E48EF900C11F90 /* complex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5ECD78F219E48EF900C11F90 /* complex.cpp */; };
@@ -24,16 +19,11 @@
 		5ECD790919E48EF900C11F90 /* velocity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5ECD78F819E48EF900C11F90 /* velocity.cpp */; };
 		5ECD790A19E48EF900C11F90 /* WavObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5ECD78F919E48EF900C11F90 /* WavObject.cpp */; };
 		5ECD790B19E48EF900C11F90 /* World.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5ECD78FA19E48EF900C11F90 /* World.cpp */; };
-		5ECD791419E48F4E00C11F90 /* 16-44100-beebuzz.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5ECD790E19E48F4E00C11F90 /* 16-44100-beebuzz.wav */; };
-		5ECD791519E48F4E00C11F90 /* 16-44100-pianoriff.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5ECD790F19E48F4E00C11F90 /* 16-44100-pianoriff.wav */; };
-		5ECD791619E48F4E00C11F90 /* 16-44100-pianosong.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5ECD791019E48F4E00C11F90 /* 16-44100-pianosong.wav */; };
-		5ECD791719E48F4E00C11F90 /* 16-44100-rockjam.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5ECD791119E48F4E00C11F90 /* 16-44100-rockjam.wav */; };
-		5ECD791819E48F4E00C11F90 /* 24-44100-churchbells.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5ECD791219E48F4E00C11F90 /* 24-44100-churchbells.wav */; };
-		5ECD791919E48F4E00C11F90 /* 8-11025-catmeow.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5ECD791319E48F4E00C11F90 /* 8-11025-catmeow.wav */; };
-		5ECD791B19E48FC600C11F90 /* ChurchBells.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5ECD791A19E48FC600C11F90 /* ChurchBells.wav */; };
 		980CD64919A69841008944E2 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 980CD64819A69841008944E2 /* CoreMotion.framework */; };
 		980CD64B19A6F2A0008944E2 /* blueTracker0.png in Resources */ = {isa = PBXBuildFile; fileRef = 980CD64A19A6F2A0008944E2 /* blueTracker0.png */; };
 		98436FD519EC3BCB00EDA8E4 /* Waterfall.wav in Resources */ = {isa = PBXBuildFile; fileRef = 98436FD419EC3BCB00EDA8E4 /* Waterfall.wav */; };
+		98C4357019EDBDC600D66166 /* 8-11025-catmeow.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5ECD791319E48F4E00C11F90 /* 8-11025-catmeow.wav */; };
+		98C4357219EDBEB900D66166 /* 8-44100-clapping.wav in Resources */ = {isa = PBXBuildFile; fileRef = 98C4357119EDBEB900D66166 /* 8-44100-clapping.wav */; };
 		98CDC58A19899D06006A4911 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 98CDC58919899D06006A4911 /* main.m */; };
 		98CDC58D19899D06006A4911 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 98CDC58C19899D06006A4911 /* AppDelegate.m */; };
 		98CDC59019899D06006A4911 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 98CDC58F19899D06006A4911 /* ViewController.mm */; };
@@ -106,6 +96,7 @@
 		980CD64A19A6F2A0008944E2 /* blueTracker0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueTracker0.png; sourceTree = "<group>"; };
 		98436FD419EC3BCB00EDA8E4 /* Waterfall.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Waterfall.wav; sourceTree = "<group>"; };
 		98BE200E19917C11005708AE /* RotaryProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RotaryProtocol.h; sourceTree = "<group>"; };
+		98C4357119EDBEB900D66166 /* 8-44100-clapping.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "8-44100-clapping.wav"; sourceTree = "<group>"; };
 		98CDC58419899D06006A4911 /* SteerAudio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SteerAudio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98CDC58819899D06006A4911 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		98CDC58919899D06006A4911 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -266,6 +257,7 @@
 				5ECD791119E48F4E00C11F90 /* 16-44100-rockjam.wav */,
 				5ECD791219E48F4E00C11F90 /* 24-44100-churchbells.wav */,
 				5ECD791319E48F4E00C11F90 /* 8-11025-catmeow.wav */,
+				98C4357119EDBEB900D66166 /* 8-44100-clapping.wav */,
 			);
 			path = WAV;
 			sourceTree = "<group>";
@@ -426,22 +418,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5ECD78FC19E48EF900C11F90 /* .gitignore in Resources */,
+				98C4357019EDBDC600D66166 /* 8-11025-catmeow.wav in Resources */,
 				980CD64B19A6F2A0008944E2 /* blueTracker0.png in Resources */,
-				5ECD78FB19E48EF900C11F90 /* .gitattributes in Resources */,
-				5ECD791B19E48FC600C11F90 /* ChurchBells.wav in Resources */,
-				5ECD790019E48EF900C11F90 /* SETUP.md in Resources */,
-				5ECD791419E48F4E00C11F90 /* 16-44100-beebuzz.wav in Resources */,
-				5ECD78FE19E48EF900C11F90 /* LICENSE in Resources */,
-				5ECD791819E48F4E00C11F90 /* 24-44100-churchbells.wav in Resources */,
-				5ECD78FF19E48EF900C11F90 /* README.md in Resources */,
 				98CDC59319899D06006A4911 /* Main.storyboard in Resources */,
-				5ECD791619E48F4E00C11F90 /* 16-44100-pianosong.wav in Resources */,
 				98436FD519EC3BCB00EDA8E4 /* Waterfall.wav in Resources */,
-				5ECD791919E48F4E00C11F90 /* 8-11025-catmeow.wav in Resources */,
-				5ECD791719E48F4E00C11F90 /* 16-44100-rockjam.wav in Resources */,
-				5ECD791519E48F4E00C11F90 /* 16-44100-pianoriff.wav in Resources */,
 				98CDC59519899D06006A4911 /* Images.xcassets in Resources */,
+				98C4357219EDBEB900D66166 /* 8-44100-clapping.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -525,7 +507,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Philadelphia Game Lab (CE4KW5FNQ4)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -567,7 +549,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Philadelphia Game Lab (CE4KW5FNQ4)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
@@ -596,6 +578,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = SteerAudio/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LINK_WITH_STANDARD_LIBRARIES = YES;
 				MACH_O_TYPE = mh_execute;
@@ -612,6 +595,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = SteerAudio/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LINK_WITH_STANDARD_LIBRARIES = YES;
 				MACH_O_TYPE = mh_execute;
